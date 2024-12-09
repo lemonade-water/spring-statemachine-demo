@@ -9,7 +9,6 @@ public interface OrderService extends IService<Order> {
 
     void createWithUser();
 
-
     void dispatch(String id, String user);
 
     void accepted(String id);
